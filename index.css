@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+  background-color: #C7A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  height: 100vh; }
+
+#affichage {
+  color: #7CE;
+  font-size: 8em; }
+
+.options-container button {
+  font-size: 1.2em;
+  border: none;
+  border-radius: .5em;
+  padding: .8em;
+  background-color: white;
+  color: #1788b5;
+  cursor: pointer; }
+.options-container > button {
+  margin: 0 auto;
+  width: 20%;
+  font-weight: 700;
+  margin-bottom: 4em; }
+.options-container .options-secondary button {
+  margin: 1.2em; }
+
+/*# sourceMappingURL=index.css.map */
